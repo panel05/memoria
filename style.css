@@ -1,0 +1,13 @@
+
+article, img{
+    max-width: 200px;
+}
+main{
+    max-width: 1000PX;
+    margin: auto;
+}
+article{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
